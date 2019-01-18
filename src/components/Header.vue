@@ -13,12 +13,7 @@
 </template>
 <script>
 export default {
-  name: 'HomeHeader',
-  props: {},
-  data () {
-    return {}
-  },
-  components: {}
+  name: 'vHeader'
 }
 </script>
 

@@ -1,12 +1,17 @@
 <template>
-  <home-header></home-header>
+  <div class="container">
+    <v-header></v-header>
+    <swiper></swiper>
+  </div>
 </template>
 <script>
-import HomeHeader from 'components/Header'
+import VHeader from 'components/Header'
+import swiper from 'components/Swiper'
 export default {
   name: 'Home',
   components: {
-    HomeHeader
+    VHeader,
+    swiper
   }
 }
 </script>
