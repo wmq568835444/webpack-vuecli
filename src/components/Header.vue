@@ -28,21 +28,21 @@ export default {
     color:#fff
     .header-left
       display: inline-block
-      padding: 0 .2rem
+      padding: 0 20px
     .header-right
       display: inline-block
       line-height:$lineHeight
-      width:1.24rem
+      width:124px
       text-align :center
       color:#fff
     .header-input
       flex: 1
-      line-height:0.6rem
-      margin:.14rem 0
+      line-height:60px
+      margin:14px 0
       background: #fff
-      border-radius: .06rem
+      border-radius: 6px
       color: #e4e7ea
-      padding:0 .04rem
+      padding:0 4px
       .icon-sousuo
-        margin-right:.04rem
+        margin-right:4px
 </style>

@@ -9,10 +9,9 @@ import fastClick from 'fastclick'
 import './assets/styles/reset.css'
 import './assets/styles/border.css'
 import 'swiper/dist/css/swiper.css'
-Vue.use(VueAwesomeSwiper)
+
 fastClick.attach(document.body)
-
-
+Vue.use(VueAwesomeSwiper)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
