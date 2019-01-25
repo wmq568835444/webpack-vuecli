@@ -7,13 +7,17 @@
       <i class="iconfont icon-sousuo"></i>输入的内容
     </div>
     <router-link to="/city">
-      <div class="header-right">北京</div>
+      <div class="header-right">{{city}}</div>
     </router-link>
   </div>
 </template>
 <script>
+import {mapState} from 'vuex'
 export default {
-  name: 'vHeader'
+  name: 'vHeader',
+  computed:{
+    ...mapState(['city'])
+  }
 }
 </script>
 
